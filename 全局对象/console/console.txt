@@ -1,0 +1,7 @@
+console.log(1)  //日志
+console.info(2)  //消息
+console.warn(3)  //警告
+console.error(4)  //错误
+console.time()  开始计时
+console.timeEnd()  结束计时
+开始计时和结束计时的参数要保持一致

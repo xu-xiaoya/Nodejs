@@ -1,0 +1,6 @@
+进程：计算机让的软件运行都是代表相应的进程
+  process.arch        查看当前CPU架构
+  process.platform    查看当前的操作系统
+  process.version     查看当前Node.js版本
+  process.pid         查看当前Node.js进程编号
+  process.kill()      结束指定编号的进程

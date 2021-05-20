@@ -1,4 +1,4 @@
-console.log("eye module");
+console.log("emodule");
 
 var a = 1;
 function fn() {
