@@ -8,4 +8,5 @@ Hostname    |URL的主机名。  例“www.mysite.cn”
 Port        |URL的端口部分。  例"80"
 Pathname    |URL的路径部分。  例"news/index.asp"
 Search      |URL的查询部分。  例“?id=123&name=location”
+Query       |URL的查询字符串，例："id=123&name=location"
 Hash        |URL中锚部分，包括前导符#。   例“#top”，指定在文档中锚记的名称

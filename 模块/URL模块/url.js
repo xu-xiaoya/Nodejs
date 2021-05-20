@@ -7,4 +7,4 @@ let str =
 
 //parse() 将URL解析为对象 
 let obj = url.parse(str);
-console.log(obj, obj.query);
+console.log(obj);

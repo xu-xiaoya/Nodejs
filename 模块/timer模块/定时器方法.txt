@@ -9,3 +9,4 @@ cleanInterval()            取消由setInterval()方法生成的定时器对象
 cleanTimeout()             取消由setTimeout()方法生成的定时器对象
 
 立即性：setImmediate()      立即执行定时器。放在最后执行，解决nodejs单线程中遇到耗时的操作
+cleanImmediate()             取消由setImmediate()方法生成的定时器对象
