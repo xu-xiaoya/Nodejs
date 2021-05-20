@@ -1,0 +1,11 @@
+方法                     |       说明
+周期性：setInterval()       按照指定的周期（ms）来调用函数或计算表达式  
+                            setInterval(code,interval),code回调函数，interval周期性执行的时间间隔
+cleanInterval()            取消由setInterval()方法生成的定时器对象
+
+
+延迟性：setTimeout()        在指定的毫秒数后调用函数或计算表达式 （一次性）    
+                            setTimeout(code, delay), code回调函数，delay表示延迟的时间
+cleanTimeout()             取消由setTimeout()方法生成的定时器对象
+
+立即性：setImmediate()      立即执行定时器。放在最后执行，解决nodejs单线程中遇到耗时的操作

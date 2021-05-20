@@ -1,5 +1,0 @@
-方法                   |       说明
-setTimeout()        在指定的毫秒数后调用函数或计算表达式        
-                            setTimeout(code, delay),delay表示延迟的时间
-
-cleanTimeout()             取消由setTimeout()方法生成的定时器对象

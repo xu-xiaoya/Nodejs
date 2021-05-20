@@ -6,10 +6,8 @@ var timer = setTimeout(function () {
     console.log('boom');
 }, 3000);
 
-
 //先执行主程序，先打印1
 console.log(1);
-
 
 //清除，立刻清除
 clearTimeout(timer);

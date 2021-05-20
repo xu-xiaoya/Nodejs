@@ -1,0 +1,11 @@
+URL示例：
+http://www.mysite.cn:80/news/index.asp?id=123&name= location#top
+
+Href        |当前文档的完整URL，与其他属性只声明部分URL不同，把该属性设置为新的URL会使浏览器读取并显示新URL内容
+Protocol    |URL协议部分，包括后缀的冒号。  例“http:”
+Host        |URL的主机名和端口部分。   例“www.mysite.cn:80”
+Hostname    |URL的主机名。  例“www.mysite.cn”
+Port        |URL的端口部分。  例"80"
+Pathname    |URL的路径部分。  例"news/index.asp"
+Search      |URL的查询部分。  例“?id=123&name=location”
+Hash        |URL中锚部分，包括前导符#。   例“#top”，指定在文档中锚记的名称
