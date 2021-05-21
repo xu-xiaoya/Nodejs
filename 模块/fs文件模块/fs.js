@@ -14,7 +14,7 @@ console.log( s.isDirectory() );
 console.log( s.isFile() );
 
 
-//创建目录
+//创建目录（同步，会阻止后续程序执行）
 fs.mkdirSync('./mydir');
 //删除目录
-fs.rmdirSync('./mydir');
+fs.rmdirSync('./mydir'); 
