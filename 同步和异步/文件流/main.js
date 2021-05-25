@@ -21,7 +21,13 @@ let count = 0;
 rs.on('data', (chunk) => {
     
     //chunk 获取的分段数据
-    //console.log(chunk);
+
+    /*post获取传递的数据：
+    let str = chunk.toString();
+    let obj = querystring.parse(str);
+    console.log(obj);
+    */
+
     count++;
 });
 //添加事件：读取结束事件

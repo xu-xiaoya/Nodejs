@@ -15,8 +15,9 @@ app.post('/mylogin', (req, res)=>{
     //使用文件流 chunk获取的分段数据
     req.on('data', (chunk)=>{
         //得到数据为buffer，转字符串后为查询字符串
-        console.log(chunk.toString());
-        let obj = querystring.parse(chunk.toString());
+        let str = chunk.toString();
+        //console.log(str);
+        let obj = querystring.parse(str);
         console.log(obj);
     });
 
