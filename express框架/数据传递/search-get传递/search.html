@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>search</title>
+</head>
+<body>
+
+<h2>用户搜索</h2>
+<!--
+    form   用于提交，向服务器发请求
+    method 设置请求的方法
+        get 不安全，使用查询字符串传递数据
+        post  安全，from data传
+        
+    action 设置请求的url
+    name   保存用户输入的值
+-->
+<form method = "get" action = "/mysearch">
+    <input type = "text" name = "kw"/>
+    <input type = "submit" />
+</form>
+
+</body>
+</html>
