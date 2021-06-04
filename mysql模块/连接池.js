@@ -23,15 +23,22 @@ pool.query(sql, (err, result)=>{
 */
 
 /*
+<<<<<<< HEAD
 
+=======
+//占位符(?)，mysql模块提供，用于过滤用户提供的数据
+>>>>>>> dce5cb4979bc609d8e61f489baf7c5eea2622178
 pool.query('insert into emp values(?,?,?,?,?,?)'
     ,[obj.eid, obj.ename, obj.sex, obj.birthday, obj.salary, obj.deptId], (err, result)=>{
         if (err) throw err;
         console.log(result);
 });
 /*
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> dce5cb4979bc609d8e61f489baf7c5eea2622178
 let obj = {
     eid: null,
     ename: 'Erya',
@@ -40,7 +47,11 @@ let obj = {
     salary: 15000,
     deptId: 10
 }
+<<<<<<< HEAD
 //法一：//占位符(?)，mysql模块提供，用于过滤用户提供的数据
+=======
+//法一：
+>>>>>>> dce5cb4979bc609d8e61f489baf7c5eea2622178
 pool.query('insert into emp values(?,?,?,?,?,?)'
     ,[obj.eid, obj.ename, obj.sex, obj.birthday, obj.salary, obj.deptId], (err, result)=>{
         if (err) throw err;

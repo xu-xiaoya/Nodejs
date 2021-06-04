@@ -28,6 +28,7 @@ app.get('/v1/emps/:eid', (req, res)=> {
     })
 
     res.send({code:200,msg:'获取成功'});
+<<<<<<< HEAD
 });
 
 
@@ -49,4 +50,6 @@ app.delete('/v1/emps/:eid', (req, res)=> {
     })
 
     
+=======
+>>>>>>> dce5cb4979bc609d8e61f489baf7c5eea2622178
 });
